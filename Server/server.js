@@ -18,7 +18,7 @@ require('dotenv').config();
 const cookieParser = require('cookie-parser');
 app.use(cookieParser({}));
 app.use(cors({
-    origin:["https://caraadvance.onrender.com","http://localhost:3000"],
+    origin:["https://caraadvance.onrender.com"],
     credentials:true,
     methods:["GET","POST"]
 }));        
